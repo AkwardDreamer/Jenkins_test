@@ -12,7 +12,7 @@ public class ResController {
     @Value("${server.port}")
     private String port;
 
-    @RequestMapping("/order/dockers")
+    @RequestMapping("/order/dockerss")
     public String helloDocker(){
         return "hello docker"+"\t"+port+"\t"+ UUID.randomUUID().toString();
     }
